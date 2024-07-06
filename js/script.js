@@ -112,7 +112,7 @@
 			$(".preview-wrapper").toggleClass("extend");
 			return false;
 		});
-		if ($(window).width() < 768 ) {            
+		if ($(window).width() < 767 ) {            
 			//$(".preview-wrapper").removeClass("extend");
 		}
 		$(".color-options li").on("click", function(){			
